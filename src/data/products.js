@@ -36,7 +36,7 @@ export const products = [
   {id:39, brand:'Lenovo', name:'Lenovo ThinkPad X1 Carbon',cat:'Laptop', price:169990,old:189990,rating:4.8,reviews:340, badge:'hot', img:'/assets/laptop.png'},
   {id:40, brand:'Lenovo', name:'Lenovo Legion 5 Pro',      cat:'Laptop', price:109990,old:129990,rating:4.7,reviews:680, badge:'sale',img:'/assets/laptop.png'},
   {id:41, brand:'Lenovo', name:'Lenovo IdeaPad Slim 5',    cat:'Laptop', price:59990, old:72990, rating:4.5,reviews:1100,badge:'sale',img:'/assets/laptop.png'},
-  {id:42, brand:'ASUS',   name:'ASUS ROG Zephyrus G14',    cat:'Laptop', price:149990,old:174990,rating:4.8,reviews:420, badge:'hot', img:'/assets/laptop.png'},
+  {id:42, brand:'ASUS',   name:'ASUS ROG Zephyrus G14',    cat:'Laptop', price:149990,old:174990,rating:4.8,reviews:420, badge:'hot', img:'https://dlcdnwebimgs.asus.com/gain/A1433BAB-3BC8-40BF-965C-B3E95E59BC61/w1000/h732'},
   {id:43, brand:'ASUS',   name:'ASUS ZenBook 14 OLED',     cat:'Laptop', price:89990, old:104990,rating:4.7,reviews:560, badge:'sale',img:'/assets/laptop.png'},
   {id:44, brand:'ASUS',   name:'ASUS TUF Gaming A15',      cat:'Laptop', price:79990, old:94990, rating:4.6,reviews:870, badge:'sale',img:'/assets/laptop.png'},
   {id:45, brand:'Acer',   name:'Acer Predator Helios 16',  cat:'Laptop', price:139990,old:159990,rating:4.7,reviews:310, badge:'new', img:'/assets/laptop.png'},

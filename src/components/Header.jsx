@@ -31,11 +31,13 @@ export default function Header({ toggleCart, toggleCompare }) {
       </div>
       <div className="hright">
         <button className="compare-btn" onClick={toggleCompare}>
-          ⚖️ Compare
+          <span className="b-icon">⚖️</span>
+          <span className="b-text">Compare</span>
           <span className="cbadge">{compareList.length}</span>
         </button>
         <button className="cart-btn" onClick={toggleCart}>
-          🛒 Cart
+          <span className="b-icon">🛒</span>
+          <span className="b-text">Cart</span>
           <span className={`cbadge ${cartQty > 0 ? 'bump' : ''}`}>{cartQty}</span>
         </button>
       </div>
